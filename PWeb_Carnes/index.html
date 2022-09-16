@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coyi Meet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;700 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "header" id="inicio">
+        <img src="img/menu.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor-head">
+            <h1 class="titulo">World suppliers of the best Argentine beef</h1>
+            <p class="class copy">Welcome! We invite you to try the best beef, raised in a natural field without animal abuse </p>
+        </div>
+    </header>
+    <main>
+        <section class="service contenedor" id="servicio">
+            <h2 class="subtitulo">We provide</h2>
+            <div class="contenedor-servicio">
+                <div class="checklist-servicio">
+                    <div class="caja">
+                        <h3 class="n-service"><span class="number">1</span>Free animals in the field</h3>
+                        <p>Our Company is located in the Humid Pampas, considered the best livestock area in Argentina for having one of the reservoirs of cattle of great gastronomic value, 
+                            with the British breeds Hereford, Aberdeen Angus and others.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-servicio1">    
+                <div class="checklist-servicio">
+                    <div class="caja"> 
+                        <h3 class="n-service"><span class="number">2</span>Healthy nutrition</h3>
+                        <p>Our cattle are raised on natural pastures with supplementation in their final stage of growth that provides energy and makes our meat an exceptional product due to its flavor and juiciness.
+                        Under strict animal health and welfare control standards</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-servicio2" id="productos">
+                <div class="checklist-servicio1">
+                    <img src="img/caja1.jpg" alt="200px" width="40%">  
+                    <div class="caja">
+                        <h3 class="n-service1"><span class="number">1</span>Box Family</h3>
+                        <p>1000 lb Tenderloin</p>
+                        <p>1000 lb Sirloin</p>
+                        <p>1000 lb Rib Eye</p>
+                        <p>1000 lb Picanha</p>
+                        <p>1000 lb Tender</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="button" value="Buy">
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galery</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/galeria1.jpg" alt="" class="img-galeria">
+                    <img src="img/galeria2.jpg" alt="" class="img-galeria">
+                    <img src="img/galeria3.jpg" alt="" class="img-galeria">
+                    <img src="img/galeria4.jpg" alt="" class="img-galeria">
+                    <img src="img/galeria5.jpg" alt="" class="img-galeria">
+                    <img src="img/galeria6.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="form-register" id="contacto">
+            <h2 class="subtitulo">Contact us</h2>
+            <div class="container">
+                <form action="action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="country">Your Activity..</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="actividad" name="actividad">
+                        <option value="Productor Agropecuario">Hotel</option>
+                        <option value="Contratista">Restaurant</option>
+                        <option value="Profesional">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">Your message</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Please write your message here.
+                      We will contact you shortly" style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="submit" value="Send">
+                  </div>
+                </form>
+              </div>
+        </section>
+        
+        </section>
+        <!--- estas secion hace que las fotos aparezcan --->
+        <section class="imagen-light">
+            <img src="img/x.svg" alt="" class="close">
+            <img src="img/port2.jpg" alt="" class="agregar-imagen">
+        </section>
+        <div class="section contenedor" id="expertos">
+            <h2 class="subtitulo">Our breeding stages</h2>
+            <div class="section-expert">
+                <div class="cont-expert">
+                    <img src="img/vaca1.jpg" alt="">
+                    <h3 class="n-expert">our bulls</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/vaca3.jpg" alt="">
+                    <h3 class="n-expert">Cria</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/vaca4.jpg" alt="">
+                    <h3 class="n-expert">Recria</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Coyi Meet</h2>
+                <p>World suppliers of Argentine beef</p>
+            </div>
+            <div class="social-media">
+                <a href="#" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="#" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="#" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="line"></div>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
